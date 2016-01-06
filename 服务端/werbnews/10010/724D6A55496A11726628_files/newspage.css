@@ -1,0 +1,333 @@
+h1 {font-size:22px; padding:0 4% 0 4%; margin:10px 0 5px 0}
+h2 {font-size:13px; padding:0 4% 10px 4%; color:#DCDCDC; margin:5px 0 10px 0;font-family:"HiraginoSansGB W3",Arial;}
+#content {font-size:13.5pt;font-family:"HiraginoSansGB W3",Arial; padding-left:2%; padding-right:2%; line-height:1.25;}
+#writer {font-size:13px;padding:20px 10px 5px 0px; text-align:right; clear:both;}
+p{margin:3px 0px;text-align:justify; text-justify:inter-ideograph;line-height:150%;}
+
+#expanda{color: #2894FF;font:12.5pt "HiraginoSansGB W3",微软雅黑,sans-serif;}
+.button {
+    position: relative;
+    overflow: visible;
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: 1px solid #d4d4d4;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 0 #fff;
+    font:20px/normal "HiraginoSansGB W3",微软雅黑,sans-serif;
+    color: #333;
+    white-space: nowrap;
+    cursor: pointer;
+    outline: none;
+    background-color: #ececec;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(#ececec));
+    background-image: -moz-linear-gradient(#f4f4f4, #ececec);
+    background-image: -ms-linear-gradient(#f4f4f4, #ececec);
+    background-image: -o-linear-gradient(#f4f4f4, #ececec);
+    background-image: linear-gradient(#f4f4f4, #ececec);
+    -moz-background-clip: padding; /* for Firefox 3.6 */
+    background-clip: padding-box;
+    border-radius: 0.2em;
+    /* IE hacks */
+    zoom: 1;
+    *display: inline;
+}
+
+.vote_layout{
+    margin: 20px 0px 20px 0px;
+    border: 1px solid #e7e7e7;
+  }
+.vote_title {
+padding: 0 5%;
+height: 41px;
+line-height: 41px;
+background: #f3f3f3;
+color: #515151;
+border-top: 1px solid #cecece;
+border-bottom: 1px solid #BA2636;
+}
+.vote_title span {
+color: #000;
+font-size: 18px;
+padding: 0 0 0 20px;
+}
+
+.vote_bd{
+  overflow: hidden;
+}
+.vote_bd .bd_box{
+  overflow:hidden;
+}
+.vote_bd .bd_box .gdTit{
+  overflow: hidden;
+  padding:10px;
+  border-bottom: 1px solid #cecece;
+
+}
+
+.vote_bd .bd_box .gdTit .more_xx{
+   background:#ff3d00;
+   color:#ffffff;
+   font-size:14px;
+
+}
+
+.vote_bd .bd_box .gdTit .xx_num{
+   font-size:12px;
+   font-weight:bold;
+
+}
+
+.vote_bd .bd_box .title_info{
+  padding:0px 15px 0px 15px;
+  font-size: 12pt;
+  overflow: hidden;
+}
+
+.vote_bd .bd_box .gdTit h3{
+font-size: 14pt;
+font-weight: 100;
+height: 20px;
+line-height: 20px;
+text-align: center;
+}
+
+.vote_bd .bd_box .title_info h4{
+  text-align: center;
+  font-size: 10pt;
+  color: #b9b9b9;
+}
+
+.vote_bd .bd_box .title_info h4 span.time{ 
+   float:left;
+}
+.vote_bd .bd_box .title_info h4 span.vote_count{ 
+   float:right;
+}
+.vote_bd .bd_box .title_info h4 span.vote_count strong{ 
+   color:red;
+}
+
+.vote_bd .bd_box .tijiao{
+  text-align:center;
+  margin:10px 10% 10px 20%;
+  display: block;
+  overflow:hidden;
+}
+.vote_bd .bd_box .tijiao a{
+  display: block;
+text-align: center;
+text-decoration: none;
+vertical-align: middle;
+cursor: pointer;
+width: 80%;
+font-size: 14px;
+line-height: 35px;
+height: 35px;
+color: #fff;
+text-shadow: 1px 1px 0 rgba(0,0,0,.2);
+font-weight: 400;
+font-weight: bold\0;
+_font-weight: 700;
+background-color: #e61e1e;
+background: -webkit-gradient(linear,left top,left bottom,from(#ff3d00),to(#e61e1e));
+background: -moz-linear-gradient(top,#ffa800,#e66e1e);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3d00', endColorstr='#e61e1e');
+background: -o-linear-gradient(top,#ff3d00,#e61e1e);
+background: -ms-linear-gradient(top,#ff3d00 0,#e61e1e 100%);
+background: linear-gradient(top,#ff3d00,#e61e1e);
+border: 0;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+
+}
+
+.vote_bd .bd_box .tijiao a:hover{
+  text-decoration: none;
+background-color: #f48f0d;
+background: -webkit-gradient(linear,left top,left bottom,from(#ff3d00),to(#ff3d00));
+background: -moz-linear-gradient(top,#ff3d00,#e61e1e);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3d00', endColorstr='#ff3d00');
+background: -o-linear-gradient(top,#ff3d00,#ff3d00);
+background: -ms-linear-gradient(top,#ff3d00 0,#ff3d00 100%);
+background: linear-gradient(top,#ff3d00,#ff3d00);
+
+}
+
+.vote_bd .bd_box .voteUtl{
+ clear:both;
+ border-bottom: 0px solid #cecece;
+ display:block;
+ overflow:hidden;
+ padding: 10px;
+}
+.vote_bd .bd_box ul li{
+  list-style: none;
+  line-height: 35px;
+  display:block;
+  overflow:hidden;
+  padding: 5px 0px 5px 5px;
+  text-indent: 6pt;
+}
+.vote_bd .bd_box ul li a{
+ background:#e5e5e5;
+ display:block;
+ text-decoration: none;
+ color:#212121;
+ font-size:14pt;
+
+}
+
+.vote_bd .bd_box ul li .xuanx{
+  float:left;
+}
+.vote_bd .bd_box ul li .tpiao{
+   float:right;
+   width:150px;
+   text-align:left;
+}
+.vote_bd .bd_box ul li .tpiao strong{
+ color:red;
+ display: inline-block;
+}
+
+
+html, body { 
+color: #333333; 
+} 
+li.vl-item { 
+float: left; 
+width: 100%; 
+} 
+.app-vote ul, .app-vote ol, .app-vote li, .app-vote dl, .app-vote dt, .app-vote dd, .app-vote form, .app-vote p, .app-vote h1, .app-vote h2, .app-vote h3 { 
+margin: 0; 
+padding: 0; 
+} 
+.app-vote em { 
+font-style: normal; 
+} 
+.app-vote ul, .app-vote ol { 
+list-style: none outside none; 
+} 
+.vote-box-list { 
+float: left; 
+width: 586px; 
+} 
+#appVote .vote-action { 
+margin-top: 30px; 
+width: 60px; 
+} 
+.vote-box-list li { 
+list-style: none outside none; 
+} 
+.vote-box-list li .vote-item-wrap { 
+padding: 5px 0; 
+} 
+.vote-box-list li.over { 
+background-color: #FFE57F; 
+} 
+.vote-box-list li h4 { 
+font-size: 1em; 
+font-weight: normal; 
+overflow: hidden; 
+text-align: right; 
+width: 260px; 
+word-wrap: break-word; 
+} 
+.vote-box-list li .litem { 
+background: none repeat scroll 0 0 #EFEFEF; 
+border: 1px solid #E2E2E2; 
+height: 14px; 
+width: 183px; 
+} 
+.vote-box-list li p, .vote-box-list li h4 { 
+float: left; 
+margin: 0; 
+padding: 0; 
+} 
+.vote-box-list li p input { 
+float: left; 
+margin: 0; 
+} 
+.vote-box-list li em, .vote-box-list li span { 
+float: left; 
+height: 16px;
+line-height: 16px; 
+overflow: hidden; 
+font-size:12px;
+} 
+.vote-box-list li .vleft, .vote-box-list li .right { 
+width: 2px; 
+} 
+.vnum { 
+text-indent: 5px; 
+width: 90px; 
+} 
+ul.vote-ctrl-act-sep { 
+margin: 5px 0; 
+overflow: hidden; 
+} 
+ul.vote-ctrl-act-sep li { 
+border-bottom: medium none; 
+border-right: 1px solid #000000; 
+float: right; 
+margin-right: -1px; 
+padding: 0 10px; 
+} 
+#appVoteAddForm dt { 
+clear: left; 
+text-align: right; 
+width: 150px; 
+} 
+#appVoteAddForm .txt { 
+width: 400px; 
+} 
+#appVoteAddForm .vote { 
+height: 300px; 
+width: 400px; 
+} 
+#appVoteAddForm .tip { 
+color: #6B6B6B; 
+} 
+#appVoteAddForm .back_block { 
+margin: 6px 0; 
+width: 550px; 
+} 
+#text_vote_area p.m { 
+color: #355E9D; 
+} 
+#text_vote_area p.t { 
+color: #999999; 
+} 
+
+.tbox {
+position: absolute;
+display: none;
+z-index: 900;
+position: fixed;
+opacity: 0;
+top: 340px;
+left:100px;
+}
+
+#warning, #notice {
+background: #333333;
+color: #fff;
+-moz-border-radius: 0;
+opacity: 0.8;
+font-size: 12px;
+font-weight: bolder;
+text-align: center;
+}
+
+.tinner {
+padding: 15px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+border-right: 1px solid #333;
+border-bottom: 1px solid #333;
+width: 100px;
+height: 8px;
+}
